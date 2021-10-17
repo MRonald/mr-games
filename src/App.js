@@ -1,11 +1,14 @@
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
+import './styles/global.css';
+
 
 function App() {
-  return (
-    <div className="App">
-      conteudo
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Routes />
+        </BrowserRouter>
+    );
 }
 
 export default App;

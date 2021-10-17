@@ -1,0 +1,18 @@
+:root {
+    /* Colors */
+    --white: #fff;
+    --black: #000;
+    --gray-light: #cecece;
+    --brown: #76482E;
+    --red: #ff2f2f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+}
